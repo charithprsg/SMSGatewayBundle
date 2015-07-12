@@ -1,0 +1,14 @@
+[gammu]
+port = /dev/ttyUSB0
+connection = at
+
+[smsd]
+Service = sql
+Driver = native_mysql
+PIN = 1234
+LogFile = syslog
+User = root
+Password = root
+PC = localhost
+Database = smsd
+PhoneID = mobitel

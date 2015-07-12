@@ -1,0 +1,6 @@
+parameters:
+    server_parameters:
+        servername: localhost
+        username: root
+        password: root
+        db_name: smsd

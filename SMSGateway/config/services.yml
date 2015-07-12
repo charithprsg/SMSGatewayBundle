@@ -1,0 +1,5 @@
+services:
+    sms_gateway:
+        class: Base\SMSGatewayBundle\SMSGateway\SMSGateway
+        arguments: ['@mailer','%server_parameters%']
+#        arguments: [@service_id, "plain_value", %parameter%]

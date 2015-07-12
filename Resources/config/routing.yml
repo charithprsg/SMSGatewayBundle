@@ -1,0 +1,3 @@
+base_sms_gateway_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: BaseSMSGatewayBundle:Default:index }
